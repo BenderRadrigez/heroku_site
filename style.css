@@ -112,6 +112,19 @@ a.sing-up {
   background: #48346e;
 }
 
+/* burger button */
+.burger{
+  width: 70px;
+  height: 50px;
+  background: none;
+  border: none;
+  display: none;
+}
+.burger i{
+color: #fff;
+font-size: 50px;
+}
+
 /* banner */
 .banner {
   text-align: center;
@@ -322,13 +335,24 @@ a.sing-up {
   color: #3f3f44;
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1000px){
+  /* header */
+  .container > ul,
+  menu > .menu-right{
+    display: none;
+  }
+  .burger{
+    display: block;
+  }
+  /* main */
   .cards{
     justify-content: center;
   }
+  /* footer */
   .wrapper,
   .sub-footer > ul,
   .wrapper > .footer-links,
+  .wrapper > .footer-social,
   .tertiary,
   .tertiary ul{
     display: flex;
@@ -336,11 +360,8 @@ a.sing-up {
     align-items: center;
     text-align: center;
   }
-}
-
-@media (max-width: 972px){
-  .container > ul,
-  menu > .menu-right{
-    display: none;
+  .tertiary,
+  .sub-footer{
+    padding: 20px;
   }
 }
