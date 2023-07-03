@@ -10,7 +10,6 @@
 }
 body {
   min-height: 100%;
-  min-width: 950px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
@@ -165,6 +164,7 @@ a.sing-up {
   height: 220px;
   max-width: 285px;
   border: 1px solid rgba(128, 128, 128, 0.342);
+  transition: .2s ease-in-out;
 }
 .card:hover {
   border: 1px solid #56428d;
@@ -320,4 +320,27 @@ a.sing-up {
 }
 .cookie ul li a {
   color: #3f3f44;
+}
+
+@media (max-width: 1025px){
+  .cards{
+    justify-content: center;
+  }
+  .wrapper,
+  .sub-footer > ul,
+  .wrapper > .footer-links,
+  .tertiary,
+  .tertiary ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 972px){
+  .container > ul,
+  menu > .menu-right{
+    display: none;
+  }
 }
