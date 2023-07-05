@@ -1,0 +1,28 @@
+.container ul li ul li a {
+  color: #000;
+}
+#products-id:hover ~ #menu-products,
+#menu-products:hover {
+  visibility: unset;
+}
+#menu-products {
+  /* visibility: hidden; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0;
+  justify-content: space-around;
+  border-radius: 5px;
+  background: #fff;
+  width: 200px;
+  height: 170px;
+}
+#menu-products li{
+    
+}
+
+#menu-products ul {
+  display: none;
+  visibility: hidden;
+}

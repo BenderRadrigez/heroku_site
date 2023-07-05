@@ -1,0 +1,110 @@
+* {
+  text-decoration: none;
+}
+.hide{
+    display:none;
+    visibility: hidden;
+}
+.hiden-menu {
+  position: absolute;
+  display: block;
+  background: #000000d8;
+  z-index: 15;
+}
+.menu-header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px;
+  background: linear-gradient(#000000 50%, #00000000);
+}
+.start-page {
+  color: #fff;
+  text-decoration: none;
+}
+.close-menu {
+  width: 70px;
+  height: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.close-menu i {
+  color: #fff;
+  font-size: 50px;
+}
+/* ---------------------- */
+.menu-main {
+  padding: 100px 30px 0 30px;
+  list-style: none;
+}
+.menu-main ul li {
+  margin: 20px 0;
+}
+.menu-main li a {
+  color: #fff;
+  font-weight: 600;
+}
+.menu-main ul li > a:hover {
+  color: #03a2da;
+}
+.menu-main > li > a {
+  font-size: 25px;
+}
+.menu-products,
+.menu-marketplace,
+.menu-platform,
+.menu-data-services,
+.menu-enterprise,
+.menu-salesforce,
+.menu-DX,
+.menu-runtimes {
+  padding-left: 30px;
+}
+
+/* menu-more */
+.menu-more {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-more h6 {
+  color: #7b619b;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.line {
+  height: 1px;
+  border: none;
+  background-color: #7b619b;
+  margin-bottom: 15px;
+}
+.more-resources li a,
+.more-is-for li a,
+.more-languages li a,
+.latest-news {
+  color: #ffffffbb;
+}
+.latest-news > a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.latest-news p {
+  margin-bottom: 10px;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+}
+.more-news {
+  font-size: 13px;
+}
+
+.more-news-button {
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 3px 10px;
+}

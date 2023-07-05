@@ -1,0 +1,132 @@
+header {
+    background: linear-gradient(to right, #403670, #6b479a);
+    color: #fff;
+  }
+  /*----------- menu -----------*/
+  header > menu {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container,
+  .menu-right,
+  .log-in,
+  .start-page {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  header menu a {
+    text-decoration: none;
+    color: #fff;
+    width: 280px;
+    font-weight: 300;
+  }
+  header menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .container > ul a {
+    color: #ffffff71;
+    transition: 0.2s ease-in-out;
+  }
+  .container > ul a:hover {
+    color: #fff;
+  }
+  .heroku-icon {
+    width: 40px;
+  }
+  .start-page {
+    max-width: 160px;
+  }
+  .start-page span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  /*----------- search -----------*/
+  .search {
+    background: #ffffff17;
+    color: #ffffff71;
+    padding: 7px 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+  }
+  .search > input {
+    border: none;
+    width: 145px;
+    outline: none;
+    background: none;
+    color: #fff;
+    transition: .2s ease-in-out;
+  }
+  .search > input::placeholder {
+    color: #fff;
+  }
+  .search > input:focus {
+    width: 220px;
+  }
+  /*----------- log in buttons -----------*/
+  .log-in {
+    justify-content: end;
+    margin-left: 10px;
+  }
+  .log-in > a {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff71;
+    transition: .2s ease-in-out;
+  }
+  .log-in a:hover {
+    color: #fff;
+  }
+  .log-in > p {
+    color: #ffffff28;
+  }
+  a.sing-up {
+    border-radius: 5px;
+    background: #523b7c9c;
+    color: #fff;
+  }
+  .sing-up:hover {
+    background: #48346e;
+  }
+  
+  /*----------- burger button -----------*/
+  .burger{
+    width: 70px;
+    height: 50px;
+    background: none;
+    border: none;
+    display: none;
+    cursor: pointer;
+  }
+  .burger i{
+  color: #fff;
+  font-size: 50px;
+  }
+  
+  /*----------- banner -----------*/
+  .banner {
+    text-align: center;
+    padding: 56px 20px 80px;
+  }
+  .banner i {
+    font-size: 70px;
+    color: #ffffff71;
+  }
+  .banner h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 10px;
+  }
+  .banner h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff71;
+  }

@@ -1,0 +1,69 @@
+#main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1260px;
+  }
+  .heroku-featured-buttons,
+  .all-buttons {
+    margin: 50px;
+  }
+  .category-label {
+    border-bottom: 1px solid #4d4b4b57;
+    padding-bottom: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    gap: 5px;
+    margin: 30px 0px;
+    max-width: 1200px;
+  }
+  
+  /* ---------- card ----------- */
+  
+  .card {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    height: 220px;
+    max-width: 285px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    transition: .2s ease-in-out;
+  }
+  .card:hover {
+    border: 1px solid #56428d;
+  }
+  .brand {
+    padding: 20px;
+  }
+  .brand-author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .line {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  .brand-text {
+    font-size: 13px;
+  }
+  
+  .stats {
+    position: absolute;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: #f8f8fa;
+    justify-content: start;
+    gap: 15px;
+    padding: 10px;
+  }
+  .violet-stats {
+    position: absolute;
+    left: 90%;
+  }
+  
